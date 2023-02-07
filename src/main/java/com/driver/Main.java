@@ -25,7 +25,7 @@ public class Main {
         b1.meth();
 
         B b2 = new B();
-        b1.meth();
+        b2.meth();
     }
 
 }
