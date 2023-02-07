@@ -21,11 +21,11 @@ class B extends A {
 public class Main {
 
     public static void main(String [] args){
-        A b = new B();
-        b.meth();
+        A b1 = new B();
+        b1.meth();
 
-        B b = new B();
-        b.meth();
+        B b2 = new B();
+        b1.meth();
     }
 
 }
