@@ -8,6 +8,15 @@ class A{
 
 }
 
+
+class B extends A {
+   public String meth(){
+    return "Method is overridden in Extendend class B"
+   }
+}
+
+
 public class Main {
-  
+   B b = new A();
+    b.meth();
 }
